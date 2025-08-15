@@ -7,8 +7,8 @@ steps:
     entrypoint: gcloud
     args:
     - 'run'
-    - 'deploy'
-    - 'n8n-deploy'
+    - 'dev'
+    - 'n8n-dev'
     - '--image'
     - 'gcr.io/$PROJECT_ID/n8n-docker-image'
     - '--region'
